@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+<style type="text/css">
+
+        .test ul{
+
+            list-style-type: none;
+
+ 
+
+        }
+
+ 
+
+        .test ul li{
+
+ 
+
+            float:left;
+
+ 
+
+            /*以下设置仅为方便查看效果*/
+
+            width:50px;
+
+            height:20px;
+
+            border:1px solid black;
+
+            text-align: center;
+
+        }
+
+ 
+
+        .test ul li ul{
+
+            display: none;
+
+        }
+
+ 
+
+        .test li:hover ul{
+
+            display:block;
+
+        }
+
+ 
+
+</style>
+
+</head>
+<body>
+
+<div class="test">
+
+    <ul>
+
+            <li>A</li>
+
+                <li>B</li>
+
+                <li>C
+
+                    <ul>
+
+                            <li>C1</li>
+
+                            <li>C2</li>
+
+                            <li>C3</li>
+
+                    </ul>
+
+            </li>
+
+    </ul>
+
+</div>
+
+</body>
+</html>
